@@ -32,7 +32,7 @@ function NavBar() {
                             <Link
                                 key={index}
                                 to={link.href}
-                                className=' text-center font-bold barlow-bold text-white hover:text-green-primary transition-all duration-300'
+                                className=' text-center font-bold barlow-bold text-white hover:text-green-quadritary transition-all duration-300'
                             >
                                 {link.name}
                             </Link>

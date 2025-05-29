@@ -18,7 +18,7 @@ import DownloadButton from '../../../assets/icons/DownloadButton'
 
 function Hero() {
   return (
-    <div className="w-screen bg-green-primary relative">
+    <div className="w-screen bg-green-quadritary relative">
       <Container className='text-white z-10 relative' >
         <div className="w-full min-h-[100vh] lg:h-fit flex flex-col items-center justify-center gap-10 md:gap-20 lg:gap-0 ">
           <h1 className="w-fit text-center flex flex-col gap-1 lg:gap-3 racing-sans-one-regular text-black text-4xl md:text-6xl">
