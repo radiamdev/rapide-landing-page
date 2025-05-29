@@ -26,13 +26,13 @@ function NavBar() {
                 <div>
                     <Logo className='w-[120px] md:w-[150px] xl:w-[190px] ' />
                 </div>
-                <div className="hidden lg:flex items-center justify-center gap-5">
+                <div className="hidden lg:flex items-center justify-center gap-5 relative z-10">
                     {
                         headerLinkData.map((link, index) => (
                             <Link
                                 key={index}
                                 to={link.href}
-                                className=' text-center font-bold barlow-bold text-white hover:text-[#0c0] transition-all duration-300'
+                                className=' text-center font-bold barlow-bold text-white hover:text-green-primary transition-all duration-300'
                             >
                                 {link.name}
                             </Link>
@@ -79,7 +79,7 @@ function NavBar() {
                     {/* <LanguageSwitcher /> */}
                     <button className=' w-fit text-black !text-2xl lg:text-base !font-semibold bg-white py-3 px-4 rounded-md lg:hidden' > Contactez nous </button>
                 </div>
-                <button className='hidden lg:block text-black font-semibold bg-white py-3 px-4 rounded-md' > Contactez nous </button>
+                <button className='hidden lg:block text-black !font-semibold bg-white py-3 px-4 rounded-md' > Contactez nous </button>
                 <div className="cursor-pointer block lg:hidden " >
                     <RiMenuFoldLine size={30} onClick={open} />
                     <Modal opened={opened} onClose={close} title="Menu">
