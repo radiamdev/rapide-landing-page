@@ -8,6 +8,7 @@
 @theme inline {
     --color-green-primary: #0c0;
     --color-green-secondary: #1F5900;
+    --color-green-tertiary: #71D343;
 }
 
 * {
