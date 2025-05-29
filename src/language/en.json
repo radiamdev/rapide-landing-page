@@ -9,6 +9,14 @@
             "aboutUs": "About us",
             "howItWorks": "How it works",
             "contactUs": "Contact us"
+        },
+        "contactUsSection": {
+            "contactUs": "Contact us",
+            "getInTouch": "get in touch",
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "send": "Send"
         }
     }
 }

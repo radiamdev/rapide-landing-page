@@ -9,6 +9,14 @@
             "aboutUs": "A propos de nous",
             "howItWorks": "Comment ceci fonctionne",
             "contactUs": "Contactez-nous"
+        },
+        "contactUsSection": {
+            "contactUs": "Contactez-nous",
+            "getInTouch": "Contactez-nous",
+            "name": "Nom",
+            "email": "Email",
+            "message": "Message",
+            "send": "Envoyer"
         }
     }
 }

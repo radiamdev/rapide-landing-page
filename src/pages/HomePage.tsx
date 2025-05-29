@@ -1,10 +1,10 @@
 import AboutUs from '../components/HomePage/Sections/AboutUs'
-import FooterA from '../components/HomePage/Sections/FooterA'
 import Footer from '../components/HomePage/Footer'
 import Hero from '../components/HomePage/Sections/Hero'
 import HowItWork from '../components/HomePage/Sections/HowItWork'
 import NavBar from '../components/HomePage/NavBar'
 import Service from '../components/HomePage/Sections/Service'
+import ContactUs from '../components/HomePage/Sections/ContactUs'
 
 export default function HomePage() {
     return (
@@ -14,7 +14,7 @@ export default function HomePage() {
             <Service />
             <AboutUs />
             <HowItWork />
-            <FooterA />
+            <ContactUs />
             <Footer />
         </div>
     )

@@ -6,8 +6,10 @@
 }
 
 @theme inline {
-    --color-green-primary: #098c04;
-    --color-green-secondary: #71d343;
+    --color-green-primary: #0c0;
+    --color-green-secondary: #1F5900;
+    --color-green-tertiary: #71D343;
+    --color-green-quadritary: #098c04;
 }
 
 * {
