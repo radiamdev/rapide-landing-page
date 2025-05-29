@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { RiMenuFoldLine } from 'react-icons/ri'
 import { useDisclosure } from '@mantine/hooks'
 import { Modal } from '@mantine/core'
-// import { LanguageSwitcher } from '../LanguageSwitcher'
+import { LanguageSwitcher } from '../LanguageSwitcher'
 import Logo from '../../assets/icons/Logo'
 import Container from '../common/Container'
 
@@ -21,7 +21,7 @@ function NavBar() {
     ]
     return (
         <div
-            className=" w-screen bg-green-primary text-white">
+            className=" w-screen bg-green-quadritary text-white">
             <Container tag='header' className='flex justify-between py-5 p-5 lg:px-20 shadow items-center' >
                 <div>
                     <Logo className='w-[120px] md:w-[150px] xl:w-[190px] ' />
@@ -76,7 +76,7 @@ function NavBar() {
                     >
                         Contact Us
                     </a> */}
-                    {/* <LanguageSwitcher /> */}
+                    <LanguageSwitcher />
                     <button className=' w-fit text-black !text-2xl lg:text-base !font-semibold bg-white py-3 px-4 rounded-md lg:hidden' > Contactez nous </button>
                 </div>
                 <button className='hidden lg:block text-black font-semibold bg-white py-3 px-4 rounded-md' > Contactez nous </button>
