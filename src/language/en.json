@@ -1,5 +1,14 @@
 {
     "homePage": {
-
+        "footerSection": {
+            "footerText": "Rapide App is designed to simplify your everyday transportation needs. Whether you choose a quick ride on a Moto, a comfortable Lite car, or the luxurious Premium service, we ensure that every journey is tailored to your preferences. With our dedicated drivers ready to assist you, getting to your destination has never been easier.",
+            "rapideInfo": "If you have any questions or need more information about Rapide App, don't hesitate to reach out! Our team is here to assist you and ensure you have all the details you need to get started. We look forward to helping you with your transportation needs!",
+            "links": "Link",
+            "contact": "Contact",
+            "home": "Home",
+            "aboutUs": "About us",
+            "howItWorks": "How it works",
+            "contactUs": "Contact us"
+        }
     }
 }
