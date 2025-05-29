@@ -17,6 +17,16 @@
             "email": "Email",
             "message": "Message",
             "send": "Envoyer"
+        },
+        "howItWorks": {
+            "title": "Comment l'app fonctionne",
+            "description": "Avec l'application Rapide, profitez d'un transport rapide et fiable et de services de livraison au bout de votre doigt. Simple et efficace.",
+            "download": "Telecharger l'application",
+            "descriptionDownload": "Telechargez l'application Rapide sur votre appareil mobile avec Play Store ou App Store.",
+            "createAccount": "Créer un compte",
+            "createAccountDescription": "Créez un compte avec votre numéro de téléphone, votre prénom, votre nom, votre adresse e-mail et un code de confirmation que nous vous enverrons.",
+            "execute": "Exécuter",
+            "executeDescription": "Après avoir créé un compte, vous pouvez commencer a utiliser l'application Rapide pour prendre un trajet, envoyer un colis ou recevoir un colis."
         }
     }
 }

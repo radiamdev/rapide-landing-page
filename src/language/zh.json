@@ -17,6 +17,16 @@
             "email": "电子邮件",
             "message": "信息",
             "send": "发送"
+        },
+        "howItWorks": {
+            "title": "如何工作",
+            "description": "使用 Rapide App，享受快速和可靠的出行和送货服务。简单而高效。",
+            "download": "下载应用",
+            "descriptionDownload": "下载 Rapide App 到您的移动设备，Play Store 或 App Store。",
+            "createAccount": "创建账户",
+            "createAccountDescription": "使用您的手机号码、名、姓、电子邮件和我们将发送给您的确认码来创建帐户。",
+            "execute": "执行",
+            "executeDescription": "创建帐户后，您可以使用 Rapide App 开始使用快速出行、寄送包裹或接收包裹。"
         }
     }
 }
