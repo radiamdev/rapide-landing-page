@@ -1,0 +1,51 @@
+# 📦 Node modules
+node_modules/
+
+# 🏗️ Dossier de build Vite
+dist/
+
+# ⚙️ Vite cache
+.vite/
+
+# 🔧 Logs & debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 📂 Environnement local
+.env
+.env.local
+.env.*.local
+
+# 🔍 IDEs & éditeurs
+.vscode/
+.idea/
+
+# 📦 Yarn & npm
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+.pnpm-debug.log
+package-lock.json
+yarn.lock
+
+# 🚀 Build preview (vite preview --outDir)
+build/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+*.swp
+
+# 📂 GitHub Actions (facultatif si généré automatiquement)
+.github/*.log 
