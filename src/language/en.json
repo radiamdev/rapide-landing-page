@@ -17,6 +17,16 @@
             "email": "Email",
             "message": "Message",
             "send": "Send"
+        },
+        "howItWorks": {
+            "title": "How does it work",
+            "description": "With Rapide App, enjoy fast and reliable transportation and delivery services at your fingertips. Simple and efficient.",
+            "download": "Download App",
+            "descriptionDownload": "Download the Rapide App on your mobile device with Play Store or App Store.",
+            "createAccount": "Create Account",
+            "createAccountDescription": "Create an account with your phone number, first name, last name, email, and a confirmation code that we will send to you.",
+            "execute": "Execute",
+            "executeDescription": "After creating an account, you can start using the Rapide App to book a ride, send a package, or receive a package."
         }
     }
 }
