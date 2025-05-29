@@ -16,8 +16,8 @@ function NavBar() {
     const headerLinkData = [
         { name: 'Home', href: '#home' },
         { name: 'About Us', href: '#about' },
-        { name: 'Testimonials', href: '#testimonials' },
-        { name: 'Contact Us', href: '#contact' },
+        { name: 'Service', href: '#service' },
+        { name: 'Functionality', href: '#howItWork' },
     ]
     return (
         <div
