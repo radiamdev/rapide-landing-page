@@ -6,14 +6,19 @@
 }
 
 @theme inline {
-    --color-green-primary: #0c0;
-    --color-green-secondary: #1F5900;
+    --color-green-primary: #098c04;
+    --color-green-secondary: #71d343;
 }
 
 * {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-style: normal;
+}
+
+html,
+body {
+    overflow-x: hidden;
 }
 
 .bg-image {
