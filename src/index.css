@@ -1,3 +1,4 @@
+@import url(https://db.onlinewebfonts.com/c/9ba8bbe06a8de1691ac6665853666207?family=Controller+W01+Four);
 @import 'tailwindcss';
 
 :root {
@@ -24,6 +25,18 @@
 .barlow-bold {
     font-family: 'Barlow', sans-serif;
     font-weight: 700;
+    font-style: normal;
+}
+
+.cwf-bold {
+    font-family: 'Controller W01 Four', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cwf-regular {
+    font-family: 'Controller W01 Four', sans-serif;
+    font-weight: 500;
     font-style: normal;
 }
 
