@@ -7,9 +7,11 @@
 
 @theme inline {
     --color-green-primary: #0c0;
-    --color-green-secondary: #1F5900;
-    --color-green-tertiary: #71D343;
+    --color-green-secondary: #1f5900;
+    --color-green-tertiary: #71d343;
     --color-green-quadritary: #098c04;
+    --color-green-quintinary: #43bf00;
+    --color-green-sextinary: #318C01;
 }
 
 * {

@@ -20,7 +20,7 @@ const contactItems = [
 
 const ContactInfo = () => {
     return (
-        <div className="py-5 px-12 rounded-2xl bg-green-tertiary backdrop-blur-md text-white shadow-xl">
+        <div className="py-5 px-12 rounded-2xl bg-green-tertiary backdrop-blur-md text-white shadow-xl !mx-4">
             <div className="flex flex-col lg:flex-row gap-10 items-center justify-between">
                 {contactItems.map((item) => (
                     <div key={item.label} className="flex flex-col items-center gap-3">

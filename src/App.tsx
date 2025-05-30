@@ -6,6 +6,7 @@ import { Affix, Button, Transition } from '@mantine/core'
 import { useWindowScroll } from '@mantine/hooks'
 import { IoIosArrowUp } from 'react-icons/io'
 import HomePage from './pages/HomePage'
+import NotFound from './pages/NotFound'
 
 function App() {
     const [scroll, scrollTo] = useWindowScroll()
@@ -15,6 +16,8 @@ function App() {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/privacy" element={<Term />} />
                 <Route path="/delete-account" element={<DeleteAccount />} />
+                {/* Catch-all route pour 404 */}
+                <Route path="*" element={<NotFound />} />
             </Routes>
             <Affix position={{ bottom: 20, right: 20 }}>
                 <Transition transition="slide-up" mounted={scroll.y > 0}>
