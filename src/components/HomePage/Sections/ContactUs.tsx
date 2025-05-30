@@ -5,7 +5,7 @@ import ContactInfo from '../ContactInfo'
 
 const ContactUs = () => {
     return (
-        <section className="relative flex flex-col items-center justify-between py-16">
+        <section id='contact' className="relative flex flex-col items-center justify-between py-16">
             {/* Background overlay */}
             <div
                 className="absolute inset-0 opacity-85 z-0 bg-center bg-cover bg-no-repeat"

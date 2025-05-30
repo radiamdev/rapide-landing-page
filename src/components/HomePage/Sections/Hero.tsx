@@ -15,11 +15,12 @@ import Phone from '../../../assets/icons/Phone'
 import World from '../../../assets/icons/World'
 import car from '../../../assets/image/hero-imgs/car-image.png'
 import DownloadButton from '../../../assets/icons/DownloadButton'
+import { Link } from 'react-router-dom'
 
 function Hero() {
   return (
     <div className="w-screen bg-green-quadritary relative">
-      <Container className='text-white z-10 relative' >
+      <Container id='home' className='text-white z-10 relative' >
         <div className="w-full min-h-[100vh] lg:h-fit flex flex-col items-center justify-center gap-10 md:gap-20 lg:gap-0 ">
           <h1 className="w-fit text-center flex flex-col gap-1 lg:gap-3 racing-sans-one-regular text-black text-4xl md:text-6xl">
             <p className='racing-sans-one-regular' >Your all needs</p>
@@ -39,19 +40,14 @@ function Hero() {
                 <PlayStore className='hover:cursor-pointer' />
               </div>
               <div className='flex gap-5' >
-                <FaFacebook color='white' size={33} className='hover:cursor-pointer' />
-                <Phone className='hover:cursor-pointer' />
-                <World className='hover:cursor-pointer' />
+                <Link to={"https://www.facebook.com/share/1AKupQh8dm/"} target='_blank' ><FaFacebook color='white' size={33} className='hover:cursor-pointer' /></Link>
+                <Link to={'tel:038 22 684 15'}> <Phone className='hover:cursor-pointer' /></Link>
+                <Link to={'mailto:contact@rapideapp.mg'} > <World className='hover:cursor-pointer' /> </Link>
               </div>
             </div>
           </div>
 
-
-
-
-
-
-          <DownloadButton className='hover:cursor-pointer mt-0 lg:mt-50 xl:mt-20' />
+          <DownloadButton className='hover:cursor-pointer mt-0 lg:mt-50 xl:mt-20 hover:scale-110 transition-all ' />
 
           <img alt='car image' src={car} className='absolute top-[50%] left-1/2 -translate-x-1/2 w-[805px] h-auto hidden lg:block ' />
           {/* <div className="max-w-[600px] p-5 text-center sm:p-20 flex flex-col gap-5 justify-between z-10 h-full m-auto lg:m-0"> */}

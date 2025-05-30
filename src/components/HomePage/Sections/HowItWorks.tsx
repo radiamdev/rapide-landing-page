@@ -25,7 +25,7 @@ const HowItWorks = () => {
         },
     ]
     return (
-        <section className="bg-gradient-to-r  from-[#FFFFFF] to-[#E7F6DE] py-16">
+        <section id='howItWork' className="bg-gradient-to-r  from-[#FFFFFF] to-[#E7F6DE] py-16">
             <div className="max-w-6xl mx-auto">
                 <div className="flex items-center justify-between">
                     <img
