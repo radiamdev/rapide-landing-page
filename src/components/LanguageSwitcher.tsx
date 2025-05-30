@@ -22,7 +22,7 @@ export const LanguageSwitcher = () => {
                     variant="outline"
                     size="sm"
                     radius="xl"
-                    className="!bg-green-primary !border-none"
+                    className="!bg-none !border-none"
                 >
                     <Group gap={8}>
                         <Image

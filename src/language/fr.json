@@ -1,7 +1,32 @@
 {
-    "footer": "Pied de page",
-    "rak": {
-        "title": "Rak fr",
-        "description": "Rak description"
+    "homePage": {
+        "footerSection": {
+            "footerText": "Rapide App est conçue pour simplifier vos déplacements au quotidien. Que vous optiez pour un trajet rapide en Moto, une voiture Lite confortable ou le luxueux service Premium, nous veillons à ce que chaque trajet soit personnalisé selon vos préférences. Grâce à nos chauffeurs dédiés, arriver à destination n'a jamais été aussi simple.",
+            "rapideInfo": "Pour toute question ou besoin d'informations sur l'application Rapide, n'hésitez pas à nous contacter! Notre équipe est là pour vous aider et s'assurer que vous disposez de toutes les informations nécessaires pour démarrer. Nous sommes impatients de vous accompagner dans vos besoins en matière de transport!",
+            "links": "Liens",
+            "contact": "Contact",
+            "home": "Accueil",
+            "aboutUs": "A propos de nous",
+            "howItWorks": "Comment ceci fonctionne",
+            "contactUs": "Contactez-nous"
+        },
+        "contactUsSection": {
+            "contactUs": "Contactez-nous",
+            "getInTouch": "Contactez-nous",
+            "name": "Nom",
+            "email": "Email",
+            "message": "Message",
+            "send": "Envoyer"
+        },
+        "howItWorks": {
+            "title": "Comment l'app fonctionne",
+            "description": "Avec l'application Rapide, profitez d'un transport rapide et fiable et de services de livraison au bout de votre doigt. Simple et efficace.",
+            "download": "Telecharger l'application",
+            "descriptionDownload": "Telechargez l'application Rapide sur votre appareil mobile avec Play Store ou App Store.",
+            "createAccount": "Créer un compte",
+            "createAccountDescription": "Créez un compte avec votre numéro de téléphone, votre prénom, votre nom, votre adresse e-mail et un code de confirmation que nous vous enverrons.",
+            "execute": "Exécuter",
+            "executeDescription": "Après avoir créé un compte, vous pouvez commencer a utiliser l'application Rapide pour prendre un trajet, envoyer un colis ou recevoir un colis."
+        }
     }
 }

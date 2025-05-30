@@ -1,3 +1,4 @@
+@import url(https://db.onlinewebfonts.com/c/9ba8bbe06a8de1691ac6665853666207?family=Controller+W01+Four);
 @import 'tailwindcss';
 
 :root {
@@ -7,12 +8,19 @@
 @theme inline {
     --color-green-primary: #0c0;
     --color-green-secondary: #1F5900;
+    --color-green-tertiary: #71D343;
+    --color-green-quadritary: #098c04;
 }
 
 * {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-style: normal;
+}
+
+html,
+body {
+    overflow-x: hidden;
 }
 
 .bg-image {
@@ -24,6 +32,18 @@
 .barlow-bold {
     font-family: 'Barlow', sans-serif;
     font-weight: 700;
+    font-style: normal;
+}
+
+.cwf-bold {
+    font-family: 'Controller W01 Four', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cwf-regular {
+    font-family: 'Controller W01 Four', sans-serif;
+    font-weight: 500;
     font-style: normal;
 }
 
