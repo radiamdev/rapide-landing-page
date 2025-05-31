@@ -4,7 +4,7 @@ import Service from '../components/homepage/sections/Service'
 import AboutUs from '../components/homepage/sections/AboutUs'
 import ContactUs from '../components/homepage/sections/ContactUs'
 import Footer from '../components/homepage/Footer'
-import HowItWorks from '../components/homepage/HowItWorks'
+import HowItWorks from '../components/homepage/sections/HowItWorks'
 
 export default function HomePage() {
     return (
