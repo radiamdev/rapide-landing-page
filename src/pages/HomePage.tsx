@@ -2,9 +2,9 @@ import HeroForDesktop from '../components/homepage/sections/HeroForDesktop'
 import HeroForMobile from '../components/homepage/sections/HeroForMobile'
 import Service from '../components/homepage/sections/Service'
 import AboutUs from '../components/homepage/sections/AboutUs'
-import HowItWorks from '../components/homepage/sections/HowItWorks'
 import ContactUs from '../components/homepage/sections/ContactUs'
 import Footer from '../components/homepage/Footer'
+import HowItWorks from '../components/homepage/HowItWorks'
 
 export default function HomePage() {
     return (

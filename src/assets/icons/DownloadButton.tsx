@@ -6,7 +6,7 @@ function DownloadButton({ className = '', onClick = () => { } }: { className?: s
         <path d="M27.7791 2L8 22.8391L27.7791 51H231.221L251 22.8391L231.221 2H27.7791Z" stroke="#71D343" strokeWidth="3" shapeRendering="crispEdges" />
       </g>
       <defs>
-        <filter id="filter0_d_295_294" x="0.0670166" y="0.5" width="254.866" height="62" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <filter id="filter0_d_295_294" x="0.0670166" y="0.5" width="254.866" height="62" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
           <feOffset dx="-2" dy="6" />
