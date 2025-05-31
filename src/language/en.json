@@ -27,6 +27,35 @@
             "createAccountDescription": "Create an account with your phone number, first name, last name, email, and a confirmation code that we will send to you.",
             "execute": "Execute",
             "executeDescription": "After creating an account, you can start using the Rapide App to book a ride, send a package, or receive a package."
+        },
+        "aboutUs": {
+            "title1": "We Serve customers",
+            "title2": "for",
+            "title3": "Driver",
+            "description1": "At Rapide App, our priority is to provide customers  with fast, reliable, and hassle-free services. Whether you need a ride, a package delivered, or anexpress shipment, we ensure a smooth experience with real-time tracking and dedicated support.Convenience, security, and efficiency are at the heart of what we do.",
+            "description2": " With our professional drivers, we guarantee  high-quality service at competitive rates. No more waiting or uncertainties—just seamless transportation and delivery solutions tailored to your needs. Rapide App is here to make your daily life easier, one ride and one delivery at a time.",
+            "button": "Download App for Driver"
+        },
+        "service": {
+            "subtitle": "What we offer",
+            "title": "Our services",
+            "title1": "Package Delivery",
+            "description1": "With Rapide App, sending and receiving packages has never been easier. Whether it's urgent documents, online orders, or personal deliveries, our fast and secure service ensures your items reach their destination safely. Trust Rapide App for efficiency, speed, and convenience!",
+            "title2": "Ride Hailing",
+            "description2": "Need a ride? Rapide App connects you to reliable drivers in just a few clicks. Whether you're commuting to work, heading out with friends, or running errands, our service offers fast, affordable, and safe transportation. With a fleet of cars and motorcycles, we ensure a smooth and hassle-free ride anytime, anywhere. Travel with ease—choose Rapide App!",
+            "title3": "Express Delivery",
+            "description3": "Need to send something urgently? Rapide App offers Express Delivery for fast, secure, and hassle-free shipments. Whether it's documents, parcels, or last-minute essentials, our service ensures quick delivery with real-time tracking. Get your items where they need to be—fast and reliable, just the way you need it!"
+        },
+        "hero": {
+            "description1": "At Rapide App, we are committed to providing the fastest, most reliable, and user-friendly services to simplify your daily life. Our  platform integrates seamless transportation, quick food delivery, easy online shopping, and secure payments, all in one place.",
+            "description2": "Save time, simplify your daily routine, and enjoy a modern digital experience with Rapide  App."
+        },
+        "header": {
+            "home": "Home",
+            "aboutUs": "About us",
+            "termsAndConditions": "Terms and conditions",
+            "deleteAccount": "Delete account",
+            "contactUs": "Contact us"
         }
     }
 }

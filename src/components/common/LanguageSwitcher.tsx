@@ -1,9 +1,9 @@
 import { Menu, Button, Text, Group, Image } from '@mantine/core'
 import { FiChevronDown } from 'react-icons/fi'
-import i18n from '../utils/i18n'
-import fr from '../assets/icons/fr.png'
-import en from '../assets/icons/en.png'
-import zh from '../assets/icons/zh.png'
+import i18n from '../../utils/i18n'
+import fr from '../../assets/icons/fr.png'
+import en from '../../assets/icons/en.png'
+import zh from '../../assets/icons/zh.png'
 
 const languages = [
     { code: 'fr', label: 'Français', icon: fr },
@@ -11,7 +11,11 @@ const languages = [
     { code: 'zh', label: '中国人', icon: zh },
 ] as const
 
-export const LanguageSwitcher = () => {
+export const LanguageSwitcher = ({
+    labelStyle = '!text-white',
+}: {
+    labelStyle?: string
+}) => {
     const currentLang = i18n.language
     const current = languages.find((l) => l.code === currentLang)
 
@@ -31,7 +35,7 @@ export const LanguageSwitcher = () => {
                             w={20}
                             h={20}
                         />
-                        <Text c="white" size="sm">
+                        <Text size="sm" className={labelStyle}>
                             {current?.label}
                         </Text>
                         <FiChevronDown color="white" size={16} />

@@ -12,22 +12,25 @@ const HowItWorks = () => {
             icon: download,
             title: t('homePage.howItWorks.download'),
             description: t('homePage.howItWorks.descriptionDownload'),
+            iconStyles: 'animate-bounce w-24',
         },
         {
             icon: createAccount,
             title: t('homePage.howItWorks.createAccount'),
             description: t('homePage.howItWorks.createAccountDescription'),
+            iconStyles: 'animate-pulse',
         },
         {
             icon: execute,
             title: t('homePage.howItWorks.execute'),
             description: t('homePage.howItWorks.executeDescription'),
+            iconStyles: 'animate-spin',
         },
     ]
     return (
-        <section id='howItWork' className="bg-gradient-to-r  from-[#FFFFFF] to-[#E7F6DE] py-16">
+        <section className="bg-gradient-to-r  from-[#FFFFFF] to-[#E7F6DE] lg:py-16">
             <div className="max-w-6xl mx-auto">
-                <div className="flex items-center justify-between">
+                <div className="flex lg:flex-row flex-col items-center justify-between">
                     <img
                         src={how1}
                         alt="illustration"
@@ -44,7 +47,7 @@ const HowItWorks = () => {
                     <img
                         src={how2}
                         alt="illustration"
-                        className="w-24 h-auto"
+                        className="w-24 h-auto hidden lg:block"
                     />
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3">
@@ -56,7 +59,7 @@ const HowItWorks = () => {
                             <img
                                 src={card.icon}
                                 alt="icon"
-                                className="w-16 h-auto"
+                                className={`w-16 h-auto ${card.iconStyles}`}
                             />
                             <div className="space-y-4">
                                 <h3 className="text-2xl !font-semibold text-center">

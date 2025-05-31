@@ -27,6 +27,35 @@
             "createAccountDescription": "Créez un compte avec votre numéro de téléphone, votre prénom, votre nom, votre adresse e-mail et un code de confirmation que nous vous enverrons.",
             "execute": "Exécuter",
             "executeDescription": "Après avoir créé un compte, vous pouvez commencer a utiliser l'application Rapide pour prendre un trajet, envoyer un colis ou recevoir un colis."
+        },
+        "aboutUs": {
+            "title1": "Nous servons nos clients",
+            "title2": "pour",
+            "title3": "chauffeurs",
+            "description1": "Chez Rapide App, notre priorité est d'offrir à nos clients des services rapides, fiables et simples. Que vous ayez besoin d'un transport, d'un colis livré ou d'une expédition express, nous vous garantissons une expérience fluide grâce à un suivi en temps réel et une assistance dédiée. La praticité, la sécurité et l'efficacité sont au cœur de nos préoccupations.",
+            "description2": "Avec nos chauffeurs professionnels, nous vous garantissons un service de qualité à des tarifs compétitifs. Finies les attentes et les incertitudes ! Profitez de solutions de transport et de livraison fluides et adaptées à vos besoins. L'application Rapide simplifie votre quotidien, une course et une livraison à la fois.",
+            "button": "Telecharger l'app pour les chauffeurs"
+        },
+        "service": {
+            "subtitle": "Ce que nous offrons",
+            "title": "Nos services",
+            "title1": "Livraison de colis",
+            "description1": "Avec Rapide App, envoyer et recevoir des colis n'a jamais été aussi simple. Qu'il s'agisse de documents urgents, de commandes en ligne ou de livraisons en personne, notre service rapide et sécurisé garantit que vos articles arrivent à destination en toute sécurité. Faites confiance à l'application Rapide pour son efficacité, sa rapidité et sa simplicité!",
+            "title2": "Faire un tour en hélant",
+            "description2": "Besoin d'un trajet? Rapide App vous met en relation avec des chauffeurs fiables en quelques clics. Que vous vous rendiez au travail, sortie entre amis ou fassiez des courses, notre service vous offre un transport rapide, abordable et sûr. Avec notre flotte de voitures et de motos, nous vous garantissons un trajet fluide et sans tracas, où que vous soyez et à tout moment. Voyagez en toute simplicité: choisissez l'application Rapide!",
+            "title3": "Livraison express",
+            "description3": "Besoin d'envoyer quelque chose en urgence? Rapide App propose la livraison express pour des envois rapides, sécurisés et sans tracas. Qu'il s'agisse de documents, de colis ou de produits essentiels de dernière minute, notre service assure une livraison rapide avec suivi en temps réel. Faites livrer vos articles à destination, rapidement et en toute sécurité, exactement comme vous le souhaitez!"
+        },
+        "hero": {
+            "description1": "Chez Rapide App, nous nous engageons à vous offrir les services les plus rapides, les plus fiables et les plus conviviaux pour simplifier votre quotidien. Notre plateforme intègre transport fluide, livraison rapide de repas, achats en ligne simplifiés et paiements sécurisés, le tout en un seul endroit.",
+            "description2": "Gagnez du temps, simplifiez votre quotidien et profitez d'une expérience numérique moderne avec l'application Rapide."
+        },
+        "header": {
+            "home": "Accueil",
+            "aboutUs": "A propos de nous",
+            "termsAndConditions": "Conditions d'utilisation",
+            "deleteAccount": "Supprimer le compte",
+            "contactUs": "Contactez-nous"
         }
     }
 }

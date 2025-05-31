@@ -1,8 +1,8 @@
 import { MdFacebook, MdMail, MdPhone } from 'react-icons/md'
 
-const SocialMedia = () => {
+const SocialMedia = ({ containerStyle }: { containerStyle?: string }) => {
     return (
-        <div className="flex gap-4">
+        <div className={`flex gap-4 ${containerStyle}`}>
             <a
                 href="https://www.facebook.com/share/1AKupQh8dm/"
                 target="_blank"

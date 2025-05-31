@@ -45,10 +45,10 @@ const Footer = () => {
 
                         {/* Texte */}
                         <div className="lg:w-1/2 w-full text-center lg:text-left">
-                            <h1 className="barlow-bold text-xl lg:text-5xl text-white mb-6 leading-tight">
-                                ALL YOU NEED
+                            <h1 className="barlow-bold !text-3xl lg:text-5xl text-white mb-6 leading-tight">
+                            YOUR ALL NEEDS
                                 <br />
-                                EVERYDAY
+                                EVERYDAY APP
                             </h1>
                             <p className="text-white/90 text-lg text-justify leading-relaxed mb-8 max-w-xl">
                                 {t('homePage.footerSection.footerText')}
@@ -76,12 +76,12 @@ const Footer = () => {
                         <p className="text-white/80 leading-relaxed">
                             {t('homePage.footerSection.rapideInfo')}
                         </p>
-                        <SocialMedia/>
+                        <SocialMedia />
                     </div>
 
                     {/* Links */}
                     <div className="space-y-6 flex-1 lg:pl-28">
-                        <h2 className="text-white !font-bold text-xl cwf-bold">
+                        <h2 className="text-white !font-bold text-xl cwf-regular">
                             {t('homePage.footerSection.links')}
                         </h2>
                         <ul className="space-y-4">
