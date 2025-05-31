@@ -76,17 +76,17 @@ function Service() {
                     <img
                         src={deco1}
                         alt="deco-1"
-                        className="absolute animate-bounce top-[30%] right-10 -z-10"
+                        className="absolute animate-bounce top-[30%] right-10 z-50"
                     />
                     <img
                         src={deco2}
                         alt="deco-2"
-                        className="absolute animate-ping bottom-[20%] left-[2%] -z-10"
+                        className="absolute animate-ping bottom-[20%] left-[2%] z-50"
                     />
                     <img
                         src={deco2}
                         alt="deco-2"
-                        className="absolute bottom-[20%] left-[2%] -z-10"
+                        className="absolute bottom-[20%] left-[2%] z-50"
                     />
                 </div>
             </Container>

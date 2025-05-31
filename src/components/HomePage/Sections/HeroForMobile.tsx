@@ -1,16 +1,19 @@
-import { useDisclosure } from '@mantine/hooks'
-import { Modal } from '@mantine/core'
-import { LanguageSwitcher } from '../LanguageSwitcher'
-import Container from '../common/Container'
-import logo from '../../assets/image/rapide_app_white.png'
+import logo from '../../../assets/image/rapide_app_white.png'
 import { PiDotsNineBold } from 'react-icons/pi'
 import { Link as ScrollLink } from 'react-scroll'
 import { useTranslation } from 'react-i18next'
+import { useDisclosure } from '@mantine/hooks'
+import { LanguageSwitcher } from '../../common/LanguageSwitcher'
+import { Modal } from '@mantine/core'
+import AppStore from '../../../assets/icons/AppStore'
+import PlayStore from '../../../assets/icons/PlayStore'
+import SocialMedia from '../SocialMedia'
+import DownloadButton from '../../../assets/icons/DownloadButton'
 
-function NavBar() {
+const HeroForMobile = () => {
     const [opened, { open, close }] = useDisclosure(false)
 
-    const {t} = useTranslation()
+    const { t } = useTranslation()
 
     const headerLinkData = [
         { name: t('homePage.header.home'), href: 'home' },
@@ -20,16 +23,16 @@ function NavBar() {
             href: 'https://privacy.rapideapp.mg/',
             external: true,
         },
-        { name: t('homePage.header.deleteAccount'), href: '/delete-account', external: true },
+        {
+            name: t('homePage.header.deleteAccount'),
+            href: '/delete-account',
+            external: true,
+        },
         { name: t('homePage.header.contactUs'), href: 'contact' },
     ]
-
     return (
-        <div className="w-screen bg-green-quadritary text-white">
-            <Container
-                tag="header"
-                className="flex items-center justify-between py-4"
-            >
+        <div className="h-screen bg-green-quadritary text-white">
+            <header className="flex items-center justify-between p-4">
                 {/* Logo */}
                 <div className="w-60">
                     <img
@@ -38,42 +41,6 @@ function NavBar() {
                         className="w-full h-auto"
                     />
                 </div>
-
-                {/* Desktop Menu */}
-                <div className="hidden lg:flex items-center justify-center gap-6 relative z-10 flex-grow">
-                    {headerLinkData.map((link) =>
-                        link.external ? (
-                            <a
-                                key={link.name}
-                                href={link.href}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-center hover:!font-bold text-white hover:text-black transition-all"
-                            >
-                                {link.name}
-                            </a>
-                        ) : (
-                            <ScrollLink
-                                key={link.name}
-                                to={link.href}
-                                smooth={true}
-                                duration={500}
-                                offset={-80}
-                                spy={true}
-                                activeClass="text-green-primary"
-                                className="cursor-pointer text-center hover:!font-bold text-white hover:text-black transition-all"
-                            >
-                                {link.name}
-                            </ScrollLink>
-                        )
-                    )}
-                </div>
-
-                {/* Lang Switcher */}
-                <div className="w-60 flex-1 text-end lg:block hidden">
-                    <LanguageSwitcher />
-                </div>
-
                 {/* Mobile Menu */}
                 <div className="cursor-pointer block lg:hidden">
                     <PiDotsNineBold size={32} onClick={open} />
@@ -114,9 +81,43 @@ function NavBar() {
                         </div>
                     </Modal>
                 </div>
-            </Container>
+            </header>
+
+            <div className='my-8'>
+                <h1 className="racing-sans-one-regular text-black text-5xl text-center">
+                    Your all needs <br /> everyday app
+                </h1>
+                <div className="p-8 space-y-8">
+                    <p className="text-center">
+                        {t('homePage.hero.description1')}
+                    </p>
+                    <p className="text-center">
+                        {t('homePage.hero.description2')}
+                    </p>
+                </div>
+                <div className="flex flex-col items-center justify-center gap-8">
+                    <div className="flex items-center gap-4">
+                        <a
+                            href="https://android.rapideapp.mg"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <AppStore className="hover:cursor-pointer" />
+                        </a>
+                        <a
+                            href="https://apple.rapideapp.mg"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <PlayStore className="hover:cursor-pointer" />
+                        </a>
+                    </div>
+                    <SocialMedia />
+                    <DownloadButton className="hover:cursor-pointer mt-8" />
+                </div>
+            </div>
         </div>
     )
 }
 
-export default NavBar
+export default HeroForMobile

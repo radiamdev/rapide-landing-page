@@ -76,12 +76,12 @@ const Footer = () => {
                         <p className="text-white/80 leading-relaxed">
                             {t('homePage.footerSection.rapideInfo')}
                         </p>
-                        <SocialMedia/>
+                        <SocialMedia />
                     </div>
 
                     {/* Links */}
                     <div className="space-y-6 flex-1 lg:pl-28">
-                        <h2 className="text-white !font-bold text-xl cwf-bold">
+                        <h2 className="text-white !font-bold text-xl cwf-regular">
                             {t('homePage.footerSection.links')}
                         </h2>
                         <ul className="space-y-4">
