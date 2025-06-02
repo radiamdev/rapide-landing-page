@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import logo from '../../../assets/image/rapide_app_white.png'
-import AppStore from '../../../assets/icons/AppStore'
-import PlayStore from '../../../assets/icons/PlayStore'
+import playStore from '../../../assets/icons/play_store.png'
+import appleStore from '../../../assets/icons/apple_store.png'
 import car from '../../../assets/image/hero-imgs/car-image.png'
 import SocialMedia from '../SocialMedia'
 import DownloadButton from '../../../assets/icons/DownloadButton'
@@ -9,7 +9,7 @@ import { LanguageSwitcher } from '../../common/LanguageSwitcher'
 import { Link as ScrollLink } from 'react-scroll'
 // import { useDisclosure } from '@mantine/hooks'
 
-const Hero = () => {
+const HeroForDesktop = () => {
     //    const [opened, { open, close }] = useDisclosure(false)
 
     const { t } = useTranslation()
@@ -43,14 +43,22 @@ const Hero = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <AppStore className="hover:cursor-pointer" />
+                        <img
+                            src={playStore}
+                            alt="play store"
+                            className="w-40 h-auto"
+                        />
                     </a>
                     <a
                         href="https://apple.rapideapp.mg"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <PlayStore className="hover:cursor-pointer" />
+                        <img
+                            src={appleStore}
+                            alt="apple store"
+                            className="w-40 h-auto"
+                        />
                     </a>
                 </div>
             </div>
@@ -110,4 +118,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default HeroForDesktop
