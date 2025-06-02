@@ -5,8 +5,8 @@ import { useTranslation } from 'react-i18next'
 import { useDisclosure } from '@mantine/hooks'
 import { LanguageSwitcher } from '../../common/LanguageSwitcher'
 import { Modal } from '@mantine/core'
-import AppStore from '../../../assets/icons/AppStore'
-import PlayStore from '../../../assets/icons/PlayStore'
+import playStore from '../../../assets/icons/play_store.png'
+import appleStore from '../../../assets/icons/apple_store.png'
 import SocialMedia from '../SocialMedia'
 import DownloadButton from '../../../assets/icons/DownloadButton'
 
@@ -83,7 +83,7 @@ const HeroForMobile = () => {
                 </div>
             </header>
 
-            <div className='my-8'>
+            <div className="my-8">
                 <h1 className="racing-sans-one-regular text-black text-5xl text-center">
                     Your all needs <br /> everyday app
                 </h1>
@@ -97,20 +97,28 @@ const HeroForMobile = () => {
                 </div>
                 <div className="flex flex-col items-center justify-center gap-8">
                     <div className="flex items-center gap-4">
-                        <a
-                            href="https://android.rapideapp.mg"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <AppStore className="hover:cursor-pointer" />
-                        </a>
-                        <a
-                            href="https://apple.rapideapp.mg"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <PlayStore className="hover:cursor-pointer" />
-                        </a>
+                    <a
+                        href="https://android.rapideapp.mg"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src={playStore}
+                            alt="play store"
+                            className="w-40 h-auto"
+                        />
+                    </a>
+                    <a
+                        href="https://apple.rapideapp.mg"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src={appleStore}
+                            alt="apple store"
+                            className="w-40 h-auto"
+                        />
+                    </a>
                     </div>
                     <SocialMedia />
                     <DownloadButton className="hover:cursor-pointer mt-8" />
